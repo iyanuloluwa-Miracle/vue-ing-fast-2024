@@ -1,4 +1,5 @@
 <script setup>
+import Hero from './components/Hero.vue';
 import Navbar from './components/Navbar.vue';
 
 </script>
@@ -6,6 +7,7 @@ import Navbar from './components/Navbar.vue';
 
 <template>
   <Navbar />
+  <Hero/>
   
 </template>
 
