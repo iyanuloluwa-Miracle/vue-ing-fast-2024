@@ -11,7 +11,7 @@ import JobListings from './components/JobListings.vue'
   <Navbar />
   <Hero/>
   <HomeCards/>
-  <JobListings/>
+  <JobListings :limit="3" :showButton="true"/>
   
 </template>
 

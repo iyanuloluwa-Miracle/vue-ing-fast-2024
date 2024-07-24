@@ -23,7 +23,7 @@ defineProps({
                 HTML, CSS, and JavaScript...
             </div>
 
-            <h3 class="text-[#660e60] mb-2">$70 - $80K / Year</h3>
+            <h3 class="text-[#660e60] mb-2">{{  job.salary }}</h3>
 
             <div class="border border-gray-100 mb-5"></div>
 
@@ -32,7 +32,7 @@ defineProps({
                     <i class="fa-solid fa-location-dot text-lg"></i>
                     {{ job.location }}
                 </div>
-                <a href="job.html"
+                <a :href="'/job/' + job.id"
                     class="h-[36px] bg-[#660e60] hover:bg-[#893f71] text-white px-4 py-2 rounded-lg text-center text-sm">
                     Read More
                 </a>
