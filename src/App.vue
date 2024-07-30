@@ -1,13 +1,13 @@
 <script setup>
 import Navbar from './components/Navbar.vue';
-import HomeCards from './components/HomeCards.vue';
-import JobListings from './components/JobListings.vue'
+import { RouterView } from 'vue-router'
 
 </script>
 
 
 <template>
   <Navbar />
+  <RouterView/>
  
   
 </template>
